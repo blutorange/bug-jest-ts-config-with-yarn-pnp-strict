@@ -1,0 +1,55 @@
+{
+  "files": [
+    "src", "__tests__"
+  ],
+  "compilerOptions": {
+    "allowJs": false,
+    "outDir": "dist",
+    "target": "ES2015",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "ES5",
+      "ES2015.Core",
+      "ES2015.Collection",
+      "ES2015.Iterable",
+      "ES2015.Promise"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "esModuleInterop": true,
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "isolatedModules": false,
+    "importHelpers": true,
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noStrictGenericChecks": false,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "types": ["jest"]
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es5",
+      "esModuleInterop": true
+    }
+  }
+}

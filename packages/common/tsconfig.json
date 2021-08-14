@@ -1,0 +1,36 @@
+{
+  "include": [
+    "src",
+    "__tests__",
+    "jest.config.ts"
+  ],
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES2015",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "ES5",
+      "ES2015.Core",
+      "ES2015.Collection",
+      "ES2015.Iterable",
+      "ES2015.Promise"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "esModuleInterop": true,
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["jest"]
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es5",
+      "esModuleInterop": true
+    }
+  }
+}

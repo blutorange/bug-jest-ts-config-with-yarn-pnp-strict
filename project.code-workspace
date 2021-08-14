@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": "ROOT",
+			"path": "."
+		},
+		{
+			"name": "packages/common",
+			"path": "./packages/common"
+		}
+	],
+	"extensions": {
+		"recommendations": [
+		]
+	},
+	"settings": {
+		"typescript.tsdk": ".yarn/sdks/typescript/lib",
+		"typescript.enablePromptUseWorkspaceTsdk": true,
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"dist": true,
+			"packages": true
+		},
+		"search.exclude": {
+			"**/.yarn": true,
+			"**/.pnp.*": true
+		}
+	}
+}

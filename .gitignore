@@ -1,0 +1,27 @@
+## Node ##
+node_modules/
+.npm
+.eslintcache
+.grunt
+*.tsbuildinfo
+.node_repl_history
+.env
+.env.test
+**/dist/
+
+## Yarn ##
+**/.yarn/*
+!**/.yarn/patches
+!**/.yarn/releases
+!**/.yarn/plugins
+!**/.yarn/sdks
+.pnp.*
+
+## Windows ##
+*.bat
+
+## macOS ##
+*.DS_Store
+
+
+
